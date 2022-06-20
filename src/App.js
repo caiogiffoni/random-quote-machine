@@ -43,7 +43,7 @@ function App() {
         id="quote-box"
         borderRadius="10px"
       >
-        <Heading fontSize="35px">Random Stoic Quote</Heading>
+        <Heading fontSize="35px">Stoic Quote Machine</Heading>
         <Text fontSize="22px" align="center" id="text" pt="30px">
           {quote.quote}
         </Text>
