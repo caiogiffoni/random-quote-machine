@@ -5,15 +5,18 @@ import {
   Flex,
   Heading,
   HStack,
+  Icon,
   IconButton,
   Link,
   Text,
+  useColorMode,
   VStack,
 } from "@chakra-ui/react";
 import { BsTwitter } from "react-icons/bs";
 import { useState } from "react";
 import "./App.css";
 import { quotes } from "../src/data/quotes.js";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function App() {
   const [quote, setQuote] = useState(
@@ -59,7 +62,16 @@ function App() {
           </Link>
           <Text id="author">- {quote.author}</Text>
         </Flex>
-        <HStack>
+        <HStack justify="space-between" w="100%">
+          <HStack color={quote.bg} spacing={3}>
+            <Link href="https://www.linkedin.com/in/caiocgfg" isExternal>
+              <Icon boxSize="30px" as={AiFillLinkedin} />
+            </Link>
+            <Link href="https://github.com/caiogiffoni" isExternal>
+              <Icon boxSize="30px" as={AiFillGithub} />
+            </Link>
+          </HStack>
+
           <Button
             id="new-quote"
             backgroundColor={quote.bg}

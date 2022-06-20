@@ -133,4 +133,67 @@ export const quotes = [
     bg: "teal.300",
     color: "blue",
   },
+  {
+    author: "Seneca",
+    quote:
+      "It's not because things are difficult that we dare not venture. It's because we dare not venture that they are difficult.",
+    bg: "orange.600",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "Luck is what happens when preparation meets opportunity.",
+    bg: "orange.300",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "We suffer more often in imagination than in reality.",
+    bg: "yellow.300",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "Associate with people who are likely to improve you.",
+    bg: "orange.700",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote:
+      "Hang on to your youthful enthusiasms - you'll be able to use them better when you're older.",
+    bg: "orange.500",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "If a man knows not to which port he sails, no wind is favorable.",
+    bg: "yellow.500",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote:
+      "He suffers more than necessary, who suffers before it is necessary.",
+    bg: "yellow.600",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "The whole future lies in uncertainty: live immediately.",
+    bg: "orange.600",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "To wish to be well is a part of becoming well.",
+    bg: "yellow.700",
+    color: "blue",
+  },
+  {
+    author: "Seneca",
+    quote: "He who is brave is free.",
+    bg: "yellow.300",
+    color: "blue",
+  },
 ];
